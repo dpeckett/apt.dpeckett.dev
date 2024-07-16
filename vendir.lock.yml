@@ -1,0 +1,17 @@
+apiVersion: vendir.k14s.io/v1alpha1
+directories:
+- contents:
+  - githubRelease:
+      tag: v0.2.0
+      url: https://api.github.com/repos/dpeckett/archivefs/releases/165676756
+    path: dpeckett/archivefs
+  - githubRelease:
+      tag: v0.2.0
+      url: https://api.github.com/repos/dpeckett/compressmagic/releases/165677256
+    path: dpeckett/compressmagic
+  - githubRelease:
+      tag: v0.4.2
+      url: https://api.github.com/repos/dpeckett/deb822/releases/165616961
+    path: dpeckett/deb822
+  path: vendor
+kind: LockConfig

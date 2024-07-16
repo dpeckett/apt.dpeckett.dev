@@ -1,0 +1,26 @@
+apiVersion: vendir.k14s.io/v1alpha1
+kind: Config
+directories:
+- path: vendor
+  contents:
+  - path: dpeckett/archivefs
+    githubRelease:
+      slug: dpeckett/archivefs
+      tag: v0.2.0
+      disableAutoChecksumValidation: true
+      assetNames:
+      - golang-github-dpeckett-archivefs-dev_*_all.deb
+  - path: dpeckett/compressmagic
+    githubRelease:
+      slug: dpeckett/compressmagic
+      tag: v0.2.0
+      disableAutoChecksumValidation: true
+      assetNames:
+      - golang-github-dpeckett-compressmagic-dev_*_all.deb
+  - path: dpeckett/deb822
+    githubRelease:
+      slug: dpeckett/deb822
+      tag: v0.4.2
+      disableAutoChecksumValidation: true
+      assetNames:
+      - golang-github-dpeckett-deb822-dev_*_all.deb

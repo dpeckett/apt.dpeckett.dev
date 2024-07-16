@@ -1,0 +1,46 @@
+name: Publish APT repository
+
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up SSH
+      uses: webfactory/ssh-agent@v0.9.0
+      with:
+        ssh-private-key: ${{ secrets.SSH_KEY }}
+
+    - name: Setup aptify config directory
+      env:
+        GPG_KEY: ${{ secrets.GPG_KEY }}
+      run: |
+        mkdir -p ~/.config/aptify
+        umask 077
+        echo "$GPG_KEY" > ~/.config/aptify/aptify_private.asc
+      
+    - name: Install tools
+      run: |
+        curl -fsL -o /usr/local/bin/aptify https://github.com/dpeckett/aptify/releases/download/v0.3.1/aptify-linux-amd64
+        curl -fsL -o /usr/local/bin/vendir https://github.com/carvel-dev/vendir/releases/download/v0.40.2/vendir-linux-amd64
+        sudo chmod +x /usr/local/bin/aptify /usr/local/bin/vendir
+    
+    - name: Download packages
+      run: vendir sync -l
+
+    - name: Rebuild repository
+      run: aptify build -c aptify.yaml -o ./apt-repo/
+
+    - name: Sync files to server
+      env:
+        RSYNC_RSH: 'ssh -o StrictHostKeyChecking=no'
+      run: |
+        rsync -avz --delete ./apt-repo/ nonroot@apt.pecke.tt:/home/nonroot/apt-repo/
+

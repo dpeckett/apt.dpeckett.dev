@@ -24,3 +24,10 @@ directories:
       disableAutoChecksumValidation: true
       assetNames:
       - golang-github-dpeckett-deb822-dev_*_all.deb
+  - path: dpeckett/slog-shim
+    githubRelease:
+      slug: dpeckett/slog-shim
+      tag: v0.1.0
+      disableAutoChecksumValidation: true
+      assetNames:
+      - golang-github-dpeckett-slog-shim-dev_*_all.deb

@@ -1,6 +1,6 @@
 # apt.pecke.tt
 
-Damian Peckett's personal APT repository.
+My personal APT repository.
 
 ## Usage
 

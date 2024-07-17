@@ -3,31 +3,38 @@ kind: Config
 directories:
 - path: vendor
   contents:
+  - path: dpeckett/aptify
+    githubRelease:
+      slug: dpeckett/aptify
+      tag: v0.4.0
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"
   - path: dpeckett/archivefs
     githubRelease:
       slug: dpeckett/archivefs
       tag: v0.2.0
       disableAutoChecksumValidation: true
       assetNames:
-      - golang-github-dpeckett-archivefs-dev_*_all.deb
+      - "*.deb"
   - path: dpeckett/compressmagic
     githubRelease:
       slug: dpeckett/compressmagic
       tag: v0.2.0
       disableAutoChecksumValidation: true
       assetNames:
-      - golang-github-dpeckett-compressmagic-dev_*_all.deb
+      - "*.deb"
   - path: dpeckett/deb822
     githubRelease:
       slug: dpeckett/deb822
       tag: v0.4.2
       disableAutoChecksumValidation: true
       assetNames:
-      - golang-github-dpeckett-deb822-dev_*_all.deb
+      - "*.deb"
   - path: dpeckett/slog-shim
     githubRelease:
       slug: dpeckett/slog-shim
       tag: v0.1.0
       disableAutoChecksumValidation: true
       assetNames:
-      - golang-github-dpeckett-slog-shim-dev_*_all.deb
+      - "*.deb"

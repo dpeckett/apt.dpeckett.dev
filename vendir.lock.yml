@@ -2,6 +2,10 @@ apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
   - githubRelease:
+      tag: v0.4.0
+      url: https://api.github.com/repos/dpeckett/aptify/releases/165796520
+    path: dpeckett/aptify
+  - githubRelease:
       tag: v0.2.0
       url: https://api.github.com/repos/dpeckett/archivefs/releases/165676756
     path: dpeckett/archivefs

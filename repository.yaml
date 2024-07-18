@@ -9,7 +9,6 @@ releases:
       - name: stable
         packages:
           - vendor/dpeckett/aptify/*.deb
-          - vendor/dpeckett/archivefs/golang-github-dpeckett-archivefs-dev_0.3.1-1_all.deb
-          - vendor/dpeckett/compressmagic/golang-github-dpeckett-compressmagic-dev_0.2.0-1_all.deb
-          - vendor/dpeckett/deb822/golang-github-dpeckett-deb822-dev_0.4.2-1_all.deb
-          - vendor/dpeckett/slog-shim/golang-github-dpeckett-slog-shim-dev_0.1.0-1_all.deb
+          - vendor/dpeckett/archivefs/*.deb
+          - vendor/dpeckett/compressmagic/*.deb
+          - vendor/dpeckett/deb822/*.deb

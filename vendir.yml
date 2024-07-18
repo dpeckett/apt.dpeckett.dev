@@ -13,28 +13,21 @@ directories:
   - path: dpeckett/archivefs
     githubRelease:
       slug: dpeckett/archivefs
-      tag: v0.3.1
+      tag: v0.4.1
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
   - path: dpeckett/compressmagic
     githubRelease:
       slug: dpeckett/compressmagic
-      tag: v0.2.0
+      tag: v0.3.1
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
   - path: dpeckett/deb822
     githubRelease:
       slug: dpeckett/deb822
-      tag: v0.4.2
-      disableAutoChecksumValidation: true
-      assetNames:
-      - "*.deb"
-  - path: dpeckett/slog-shim
-    githubRelease:
-      slug: dpeckett/slog-shim
-      tag: v0.1.0
+      tag: v0.5.0
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"

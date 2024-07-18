@@ -14,7 +14,7 @@ releases:
           - vendor/dpeckett/aptify/aptify-dbgsym_0.4.1-1_amd64.deb
           - vendor/dpeckett/aptify/aptify-dbgsym_0.4.1-1_arm64.deb
           - vendor/dpeckett/aptify/aptify-dbgsym_0.4.1-1_riscv64.deb
-          - vendor/dpeckett/archivefs/golang-github-dpeckett-archivefs-dev_0.2.0-1_all.deb
+          - vendor/dpeckett/archivefs/golang-github-dpeckett-archivefs-dev_0.3.0-1_all.deb
           - vendor/dpeckett/compressmagic/golang-github-dpeckett-compressmagic-dev_0.2.0-1_all.deb
           - vendor/dpeckett/deb822/golang-github-dpeckett-deb822-dev_0.4.2-1_all.deb
           - vendor/dpeckett/slog-shim/golang-github-dpeckett-slog-shim-dev_0.1.0-1_all.deb

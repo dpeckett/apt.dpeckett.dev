@@ -36,7 +36,7 @@ jobs:
       run: vendir sync -l
 
     - name: Rebuild repository
-      run: aptify build -c aptify.yaml -d ./apt-repo/
+      run: aptify build -c repository.yaml -d ./apt-repo/
 
     - name: Sync files to server
       env:

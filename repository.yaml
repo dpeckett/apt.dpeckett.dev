@@ -10,6 +10,6 @@ releases:
         packages:
           - vendor/dpeckett/aptify/*.deb
           - vendor/dpeckett/archivefs/*.deb
-          - vendor/dpeckett/buildkit/*.deb
           - vendor/dpeckett/compressmagic/*.deb
           - vendor/dpeckett/deb822/*.deb
+          - vendor/dpeckett/vt100/*.deb

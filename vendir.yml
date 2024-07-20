@@ -6,7 +6,7 @@ directories:
   - path: dpeckett/aptify
     githubRelease:
       slug: dpeckett/aptify
-      tag: v0.5.4
+      tag: v0.5.5
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"

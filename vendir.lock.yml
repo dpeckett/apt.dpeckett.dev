@@ -18,8 +18,8 @@ directories:
       url: https://api.github.com/repos/dpeckett/deb822/releases/166341071
     path: dpeckett/deb822
   - githubRelease:
-      tag: v0.12.0
-      url: https://api.github.com/repos/dpeckett/debco/releases/167869360
+      tag: v0.13.0
+      url: https://api.github.com/repos/dpeckett/debco/releases/168064835
     path: dpeckett/debco
   - githubRelease:
       tag: git20240719.6f69db9

@@ -22,8 +22,8 @@ directories:
       url: https://api.github.com/repos/dpeckett/debco/releases/168544365
     path: dpeckett/debco
   - githubRelease:
-      tag: v0.1.0
-      url: https://api.github.com/repos/dpeckett/erofs/releases/168706918
+      tag: v0.1.1
+      url: https://api.github.com/repos/dpeckett/erofs/releases/168725980
     path: dpeckett/erofs
   - githubRelease:
       tag: git20240719.6f69db9

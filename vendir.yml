@@ -38,6 +38,13 @@ directories:
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
+  - path: dpeckett/erofs
+    githubRelease:
+      slug: dpeckett/erofs
+      tag: v0.1.0
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"
   - path: dpeckett/vt100
     githubRelease:
       slug: dpeckett/vt100

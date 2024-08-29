@@ -6,28 +6,28 @@ directories:
   - path: dpeckett/aptify
     githubRelease:
       slug: dpeckett/aptify
-      tag: v0.5.5
+      tag: v0.6.0
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
   - path: dpeckett/archivefs
     githubRelease:
       slug: dpeckett/archivefs
-      tag: v0.4.4
+      tag: v0.9.0
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
   - path: dpeckett/compressmagic
     githubRelease:
       slug: dpeckett/compressmagic
-      tag: v0.3.3
+      tag: v0.4.0
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
   - path: dpeckett/deb822
     githubRelease:
       slug: dpeckett/deb822
-      tag: v0.5.2
+      tag: v0.5.3
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
@@ -35,13 +35,6 @@ directories:
     githubRelease:
       slug: dpeckett/debco
       tag: v0.14.1
-      disableAutoChecksumValidation: true
-      assetNames:
-      - "*.deb"
-  - path: dpeckett/erofs
-    githubRelease:
-      slug: dpeckett/erofs
-      tag: v0.2.0
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"

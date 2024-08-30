@@ -6,8 +6,8 @@ directories:
       url: https://api.github.com/repos/dpeckett/aptify/releases/169680361
     path: dpeckett/aptify
   - githubRelease:
-      tag: v0.9.0
-      url: https://api.github.com/repos/dpeckett/archivefs/releases/172635454
+      tag: v0.10.0
+      url: https://api.github.com/repos/dpeckett/archivefs/releases/172734076
     path: dpeckett/archivefs
   - githubRelease:
       tag: v0.4.0

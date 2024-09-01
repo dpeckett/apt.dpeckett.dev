@@ -17,13 +17,6 @@ directories:
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
-  - path: dpeckett/compressmagic
-    githubRelease:
-      slug: dpeckett/compressmagic
-      tag: v0.4.0
-      disableAutoChecksumValidation: true
-      assetNames:
-      - "*.deb"
   - path: dpeckett/deb822
     githubRelease:
       slug: dpeckett/deb822
@@ -35,6 +28,13 @@ directories:
     githubRelease:
       slug: dpeckett/debco
       tag: v0.14.1
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"
+  - path: dpeckett/uncompr
+    githubRelease:
+      slug: dpeckett/uncompr
+      tag: v0.5.0
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"

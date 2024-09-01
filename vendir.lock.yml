@@ -10,10 +10,6 @@ directories:
       url: https://api.github.com/repos/dpeckett/archivefs/releases/172734076
     path: dpeckett/archivefs
   - githubRelease:
-      tag: v0.4.0
-      url: https://api.github.com/repos/dpeckett/compressmagic/releases/169685902
-    path: dpeckett/compressmagic
-  - githubRelease:
       tag: v0.5.3
       url: https://api.github.com/repos/dpeckett/deb822/releases/166359486
     path: dpeckett/deb822
@@ -21,6 +17,10 @@ directories:
       tag: v0.14.1
       url: https://api.github.com/repos/dpeckett/debco/releases/168544365
     path: dpeckett/debco
+  - githubRelease:
+      tag: v0.5.0
+      url: https://api.github.com/repos/dpeckett/uncompr/releases/172938692
+    path: dpeckett/uncompr
   - githubRelease:
       tag: git20240719.6f69db9
       url: https://api.github.com/repos/dpeckett/vt100/releases/166306449

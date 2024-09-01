@@ -13,7 +13,7 @@ directories:
   - path: dpeckett/archivefs
     githubRelease:
       slug: dpeckett/archivefs
-      tag: v0.10.0
+      tag: v0.10.1
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"

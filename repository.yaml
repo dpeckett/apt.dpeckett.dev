@@ -12,5 +12,6 @@ releases:
           - vendor/dpeckett/archivefs/*.deb
           - vendor/dpeckett/deb822/*.deb
           - vendor/dpeckett/debco/*.deb
+          - vendor/dpeckett/oci2erofs/*.deb
           - vendor/dpeckett/uncompr/*.deb
           - vendor/dpeckett/vt100/*.deb

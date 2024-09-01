@@ -31,6 +31,13 @@ directories:
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
+  - path: dpeckett/oci2erofs
+    githubRelease:
+      slug: dpeckett/oci2erofs
+      tag: v0.1.0
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"
   - path: dpeckett/uncompr
     githubRelease:
       slug: dpeckett/uncompr

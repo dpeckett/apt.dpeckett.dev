@@ -18,6 +18,10 @@ directories:
       url: https://api.github.com/repos/dpeckett/debco/releases/168544365
     path: dpeckett/debco
   - githubRelease:
+      tag: git20240902.85aeae2
+      url: https://api.github.com/repos/dpeckett/fsutil/releases/173050442
+    path: dpeckett/fsutil
+  - githubRelease:
       tag: v0.1.0
       url: https://api.github.com/repos/dpeckett/oci2erofs/releases/172947349
     path: dpeckett/oci2erofs

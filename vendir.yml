@@ -31,6 +31,13 @@ directories:
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
+  - path: dpeckett/fsutil
+    githubRelease:
+      slug: dpeckett/fsutil
+      tag: git20240902.85aeae2
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"
   - path: dpeckett/oci2erofs
     githubRelease:
       slug: dpeckett/oci2erofs

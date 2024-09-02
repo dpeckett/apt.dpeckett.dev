@@ -45,6 +45,13 @@ directories:
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
+  - path: dpeckett/telemetry
+    githubRelease:
+      slug: dpeckett/telemetry
+      tag: v0.1.0
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"
   - path: dpeckett/uncompr
     githubRelease:
       slug: dpeckett/uncompr

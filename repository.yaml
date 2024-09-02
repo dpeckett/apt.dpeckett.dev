@@ -14,5 +14,6 @@ releases:
           - vendor/dpeckett/debco/*.deb
           - vendor/dpeckett/fsutil/*.deb
           - vendor/dpeckett/oci2erofs/*.deb
+          - vendor/dpeckett/telemetry/*.deb
           - vendor/dpeckett/uncompr/*.deb
           - vendor/dpeckett/vt100/*.deb

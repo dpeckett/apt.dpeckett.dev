@@ -26,6 +26,10 @@ directories:
       url: https://api.github.com/repos/dpeckett/oci2erofs/releases/172947349
     path: dpeckett/oci2erofs
   - githubRelease:
+      tag: v0.1.0
+      url: https://api.github.com/repos/dpeckett/telemetry/releases/173094473
+    path: dpeckett/telemetry
+  - githubRelease:
       tag: v0.5.0
       url: https://api.github.com/repos/dpeckett/uncompr/releases/172938692
     path: dpeckett/uncompr

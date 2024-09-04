@@ -8,6 +8,7 @@ releases:
     components:
       - name: stable
         packages:
+          - vendor/dpeckett/apimachinery/*.deb
           - vendor/dpeckett/aptify/*.deb
           - vendor/dpeckett/archivefs/*.deb
           - vendor/dpeckett/deb822/*.deb

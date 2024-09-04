@@ -3,6 +3,13 @@ kind: Config
 directories:
 - path: vendor
   contents:
+  - path: dpeckett/apimachinery
+    githubRelease:
+      slug: dpeckett/apimachinery
+      tag: git20240904.c1bfe04
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"
   - path: dpeckett/aptify
     githubRelease:
       slug: dpeckett/aptify

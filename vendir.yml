@@ -13,7 +13,7 @@ directories:
   - path: dpeckett/aptify
     githubRelease:
       slug: dpeckett/aptify
-      tag: v0.6.0
+      tag: v0.6.3
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
@@ -34,7 +34,7 @@ directories:
   - path: dpeckett/debco
     githubRelease:
       slug: dpeckett/debco
-      tag: v0.14.2
+      tag: v0.15.0
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
@@ -48,7 +48,7 @@ directories:
   - path: dpeckett/oci2erofs
     githubRelease:
       slug: dpeckett/oci2erofs
-      tag: v0.1.0
+      tag: v0.1.1
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"

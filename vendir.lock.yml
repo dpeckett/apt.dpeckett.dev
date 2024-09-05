@@ -6,8 +6,8 @@ directories:
       url: https://api.github.com/repos/dpeckett/apimachinery/releases/173460183
     path: dpeckett/apimachinery
   - githubRelease:
-      tag: v0.6.0
-      url: https://api.github.com/repos/dpeckett/aptify/releases/169680361
+      tag: v0.6.3
+      url: https://api.github.com/repos/dpeckett/aptify/releases/173299156
     path: dpeckett/aptify
   - githubRelease:
       tag: v0.11.0
@@ -18,16 +18,16 @@ directories:
       url: https://api.github.com/repos/dpeckett/deb822/releases/166359486
     path: dpeckett/deb822
   - githubRelease:
-      tag: v0.14.2
-      url: https://api.github.com/repos/dpeckett/debco/releases/173060371
+      tag: v0.15.0
+      url: https://api.github.com/repos/dpeckett/debco/releases/173183395
     path: dpeckett/debco
   - githubRelease:
       tag: git20240902.85aeae2
       url: https://api.github.com/repos/dpeckett/fsutil/releases/173050442
     path: dpeckett/fsutil
   - githubRelease:
-      tag: v0.1.0
-      url: https://api.github.com/repos/dpeckett/oci2erofs/releases/172947349
+      tag: v0.1.1
+      url: https://api.github.com/repos/dpeckett/oci2erofs/releases/173190937
     path: dpeckett/oci2erofs
   - githubRelease:
       tag: v0.1.2

@@ -28,7 +28,7 @@ jobs:
       
     - name: Install tools
       run: |
-        curl -fsL -o /usr/local/bin/aptify https://github.com/dpeckett/aptify/releases/download/v0.5.5/aptify-linux-amd64
+        curl -fsL -o /usr/local/bin/aptify https://github.com/dpeckett/aptify/releases/download/v0.7.4/aptify-linux-amd64
         curl -fsL -o /usr/local/bin/vendir https://github.com/carvel-dev/vendir/releases/download/v0.40.2/vendir-linux-amd64
         sudo chmod +x /usr/local/bin/aptify /usr/local/bin/vendir
     
@@ -36,11 +36,11 @@ jobs:
       run: vendir sync -l
 
     - name: Rebuild repository
-      run: aptify build -c repository.yaml -d ./apt-repo/
+      run: aptify build -c repository.yaml -d ./repo/
 
     - name: Sync files to server
       env:
         RSYNC_RSH: 'ssh -o StrictHostKeyChecking=no'
       run: |
-        rsync -avz --delete ./apt-repo/ nonroot@apt.pecke.tt:/home/nonroot/apt-repo/
+        rsync -avz --delete ./repo/ aptify@dpeckett.dev:~/repo/
 

@@ -34,7 +34,7 @@ directories:
   - path: dpeckett/debco
     githubRelease:
       slug: dpeckett/debco
-      tag: v0.15.0
+      tag: v0.15.1
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"

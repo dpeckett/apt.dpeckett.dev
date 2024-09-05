@@ -6,8 +6,8 @@ directories:
       url: https://api.github.com/repos/dpeckett/apimachinery/releases/173460183
     path: dpeckett/apimachinery
   - githubRelease:
-      tag: v0.6.3
-      url: https://api.github.com/repos/dpeckett/aptify/releases/173299156
+      tag: v0.7.0
+      url: https://api.github.com/repos/dpeckett/aptify/releases/173604631
     path: dpeckett/aptify
   - githubRelease:
       tag: v0.11.0

@@ -2,12 +2,16 @@ apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
   - githubRelease:
+      tag: v0.6.2
+      url: https://api.github.com/repos/dpeckett/airgapify/releases/173784340
+    path: dpeckett/airgapify
+  - githubRelease:
       tag: git20240904.c1bfe04
       url: https://api.github.com/repos/dpeckett/apimachinery/releases/173460183
     path: dpeckett/apimachinery
   - githubRelease:
-      tag: v0.7.4
-      url: https://api.github.com/repos/dpeckett/aptify/releases/173688021
+      tag: v0.7.5
+      url: https://api.github.com/repos/dpeckett/aptify/releases/173784641
     path: dpeckett/aptify
   - githubRelease:
       tag: v0.11.0
@@ -18,16 +22,16 @@ directories:
       url: https://api.github.com/repos/dpeckett/deb822/releases/166359486
     path: dpeckett/deb822
   - githubRelease:
-      tag: v0.15.1
-      url: https://api.github.com/repos/dpeckett/debco/releases/173724873
+      tag: v0.15.2
+      url: https://api.github.com/repos/dpeckett/debco/releases/173790705
     path: dpeckett/debco
   - githubRelease:
       tag: git20240902.85aeae2
       url: https://api.github.com/repos/dpeckett/fsutil/releases/173050442
     path: dpeckett/fsutil
   - githubRelease:
-      tag: v0.1.1
-      url: https://api.github.com/repos/dpeckett/oci2erofs/releases/173190937
+      tag: v0.1.2
+      url: https://api.github.com/repos/dpeckett/oci2erofs/releases/173784402
     path: dpeckett/oci2erofs
   - githubRelease:
       tag: v0.1.2

@@ -42,5 +42,5 @@ jobs:
       env:
         RSYNC_RSH: 'ssh -o StrictHostKeyChecking=no'
       run: |
-        rsync -avz --delete ./repo/ aptify@dpeckett.dev:~/repo/
+        rsync -avz --delete ./repo/ github-actions@dpeckett.dev:~/apt/
 

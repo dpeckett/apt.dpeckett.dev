@@ -10,8 +10,8 @@ directories:
       url: https://api.github.com/repos/dpeckett/apimachinery/releases/173460183
     path: dpeckett/apimachinery
   - githubRelease:
-      tag: v0.7.5
-      url: https://api.github.com/repos/dpeckett/aptify/releases/173784641
+      tag: v0.8.0
+      url: https://api.github.com/repos/dpeckett/aptify/releases/174090874
     path: dpeckett/aptify
   - githubRelease:
       tag: v0.11.0

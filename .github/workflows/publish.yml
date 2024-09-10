@@ -8,6 +8,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      DO_NOT_TRACK: "1"
 
     steps:
     - name: Checkout code
@@ -28,7 +30,7 @@ jobs:
       
     - name: Install tools
       run: |
-        curl -fsL -o /usr/local/bin/aptify https://github.com/dpeckett/aptify/releases/download/v0.7.4/aptify-linux-amd64
+        curl -fsL -o /usr/local/bin/aptify https://github.com/dpeckett/aptify/releases/download/v0.8.0/aptify-linux-amd64
         curl -fsL -o /usr/local/bin/vendir https://github.com/carvel-dev/vendir/releases/download/v0.40.2/vendir-linux-amd64
         sudo chmod +x /usr/local/bin/aptify /usr/local/bin/vendir
     

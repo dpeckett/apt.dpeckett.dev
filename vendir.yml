@@ -52,6 +52,13 @@ directories:
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
+  - path: dpeckett/immutableinit
+    githubRelease:
+      slug: dpeckett/immutableinit
+      tag: v0.1.1
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"
   - path: dpeckett/oci2erofs
     githubRelease:
       slug: dpeckett/oci2erofs

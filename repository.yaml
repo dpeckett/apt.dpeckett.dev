@@ -15,6 +15,7 @@ releases:
           - vendor/dpeckett/deb822/*.deb
           - vendor/dpeckett/debco/*.deb
           - vendor/dpeckett/fsutil/*.deb
+          - vendor/dpeckett/immutableinit/*.deb
           - vendor/dpeckett/oci2erofs/*.deb
           - vendor/dpeckett/telemetry/*.deb
           - vendor/dpeckett/uncompr/*.deb

@@ -30,8 +30,8 @@ directories:
       url: https://api.github.com/repos/dpeckett/fsutil/releases/173050442
     path: dpeckett/fsutil
   - githubRelease:
-      tag: v0.2.0
-      url: https://api.github.com/repos/dpeckett/matchstick/releases/174704981
+      tag: v0.2.1
+      url: https://api.github.com/repos/dpeckett/matchstick/releases/174708610
     path: dpeckett/matchstick
   - githubRelease:
       tag: v0.1.3

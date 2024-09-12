@@ -55,7 +55,7 @@ directories:
   - path: dpeckett/matchstick
     githubRelease:
       slug: dpeckett/matchstick
-      tag: v0.2.0
+      tag: v0.2.1
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"

@@ -42,8 +42,8 @@ directories:
       url: https://api.github.com/repos/immutos/debco/releases/174738803
     path: immutos/debco
   - githubRelease:
-      tag: v0.3.0
-      url: https://api.github.com/repos/immutos/matchstick/releases/174972756
+      tag: v0.3.1
+      url: https://api.github.com/repos/immutos/matchstick/releases/174994730
     path: immutos/matchstick
   - githubRelease:
       tag: v0.2.0

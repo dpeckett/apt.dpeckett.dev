@@ -38,31 +38,10 @@ directories:
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
-  - path: dpeckett/debco
-    githubRelease:
-      slug: dpeckett/debco
-      tag: v0.15.2
-      disableAutoChecksumValidation: true
-      assetNames:
-      - "*.deb"
   - path: dpeckett/fsutil
     githubRelease:
       slug: dpeckett/fsutil
       tag: git20240902.85aeae2
-      disableAutoChecksumValidation: true
-      assetNames:
-      - "*.deb"
-  - path: dpeckett/matchstick
-    githubRelease:
-      slug: dpeckett/matchstick
-      tag: v0.2.1
-      disableAutoChecksumValidation: true
-      assetNames:
-      - "*.deb"
-  - path: dpeckett/oci2erofs
-    githubRelease:
-      slug: dpeckett/oci2erofs
-      tag: v0.1.3
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
@@ -84,6 +63,27 @@ directories:
     githubRelease:
       slug: dpeckett/vt100
       tag: git20240719.6f69db9
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"
+  - path: immutos/debco
+    githubRelease:
+      slug: immutos/debco
+      tag: v0.16.0
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"
+  - path: immutos/matchstick
+    githubRelease:
+      slug: immutos/matchstick
+      tag: v0.3.0
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"
+  - path: immutos/oci2erofs
+    githubRelease:
+      slug: immutos/oci2erofs
+      tag: v0.2.0
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"

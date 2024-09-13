@@ -13,10 +13,10 @@ releases:
           - vendor/dpeckett/aptify/*.deb
           - vendor/dpeckett/archivefs/*.deb
           - vendor/dpeckett/deb822/*.deb
-          - vendor/dpeckett/debco/*.deb
           - vendor/dpeckett/fsutil/*.deb
-          - vendor/dpeckett/matchstick/*.deb
-          - vendor/dpeckett/oci2erofs/*.deb
           - vendor/dpeckett/telemetry/*.deb
           - vendor/dpeckett/uncompr/*.deb
           - vendor/dpeckett/vt100/*.deb
+          - vendor/immutos/debco/*.deb
+          - vendor/immutos/matchstick/*.deb
+          - vendor/immutos/oci2erofs/*.deb

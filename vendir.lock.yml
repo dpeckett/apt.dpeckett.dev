@@ -22,21 +22,9 @@ directories:
       url: https://api.github.com/repos/dpeckett/deb822/releases/166359486
     path: dpeckett/deb822
   - githubRelease:
-      tag: v0.15.2
-      url: https://api.github.com/repos/dpeckett/debco/releases/173790705
-    path: dpeckett/debco
-  - githubRelease:
       tag: git20240902.85aeae2
       url: https://api.github.com/repos/dpeckett/fsutil/releases/173050442
     path: dpeckett/fsutil
-  - githubRelease:
-      tag: v0.2.1
-      url: https://api.github.com/repos/dpeckett/matchstick/releases/174708610
-    path: dpeckett/matchstick
-  - githubRelease:
-      tag: v0.1.3
-      url: https://api.github.com/repos/dpeckett/oci2erofs/releases/174491754
-    path: dpeckett/oci2erofs
   - githubRelease:
       tag: v0.1.2
       url: https://api.github.com/repos/dpeckett/telemetry/releases/173167754
@@ -49,5 +37,17 @@ directories:
       tag: git20240719.6f69db9
       url: https://api.github.com/repos/dpeckett/vt100/releases/166306449
     path: dpeckett/vt100
+  - githubRelease:
+      tag: v0.16.0
+      url: https://api.github.com/repos/immutos/debco/releases/174738803
+    path: immutos/debco
+  - githubRelease:
+      tag: v0.3.0
+      url: https://api.github.com/repos/immutos/matchstick/releases/174972756
+    path: immutos/matchstick
+  - githubRelease:
+      tag: v0.2.0
+      url: https://api.github.com/repos/immutos/oci2erofs/releases/174970894
+    path: immutos/oci2erofs
   path: vendor
 kind: LockConfig

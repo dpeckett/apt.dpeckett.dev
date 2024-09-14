@@ -69,7 +69,7 @@ directories:
   - path: immutos/debco
     githubRelease:
       slug: immutos/debco
-      tag: v0.16.0
+      tag: v0.17.1
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
@@ -83,7 +83,7 @@ directories:
   - path: immutos/oci2erofs
     githubRelease:
       slug: immutos/oci2erofs
-      tag: v0.2.0
+      tag: v0.3.0
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"

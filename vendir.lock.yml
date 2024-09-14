@@ -38,16 +38,16 @@ directories:
       url: https://api.github.com/repos/dpeckett/vt100/releases/166306449
     path: dpeckett/vt100
   - githubRelease:
-      tag: v0.16.0
-      url: https://api.github.com/repos/immutos/debco/releases/174738803
+      tag: v0.17.1
+      url: https://api.github.com/repos/immutos/debco/releases/175032462
     path: immutos/debco
   - githubRelease:
       tag: v0.3.2
       url: https://api.github.com/repos/immutos/matchstick/releases/174999703
     path: immutos/matchstick
   - githubRelease:
-      tag: v0.2.0
-      url: https://api.github.com/repos/immutos/oci2erofs/releases/174970894
+      tag: v0.3.0
+      url: https://api.github.com/repos/immutos/oci2erofs/releases/175085148
     path: immutos/oci2erofs
   path: vendor
 kind: LockConfig

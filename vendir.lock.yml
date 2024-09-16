@@ -46,8 +46,8 @@ directories:
       url: https://api.github.com/repos/immutos/matchstick/releases/175118315
     path: immutos/matchstick
   - githubRelease:
-      tag: v0.3.0
-      url: https://api.github.com/repos/immutos/oci2erofs/releases/175085148
+      tag: v0.4.0
+      url: https://api.github.com/repos/immutos/oci2erofs/releases/175242796
     path: immutos/oci2erofs
   path: vendor
 kind: LockConfig

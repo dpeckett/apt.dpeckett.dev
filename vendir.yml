@@ -83,7 +83,7 @@ directories:
   - path: immutos/oci2erofs
     githubRelease:
       slug: immutos/oci2erofs
-      tag: v0.3.0
+      tag: v0.4.0
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"

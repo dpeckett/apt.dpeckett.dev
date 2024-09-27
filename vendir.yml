@@ -38,13 +38,6 @@ directories:
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
-  - path: dpeckett/fsutil
-    githubRelease:
-      slug: dpeckett/fsutil
-      latest: true
-      disableAutoChecksumValidation: true
-      assetNames:
-      - "*.deb"
   - path: dpeckett/telemetry
     githubRelease:
       slug: dpeckett/telemetry
@@ -55,13 +48,6 @@ directories:
   - path: dpeckett/uncompr
     githubRelease:
       slug: dpeckett/uncompr
-      latest: true
-      disableAutoChecksumValidation: true
-      assetNames:
-      - "*.deb"
-  - path: dpeckett/vt100
-    githubRelease:
-      slug: dpeckett/vt100
       latest: true
       disableAutoChecksumValidation: true
       assetNames:
